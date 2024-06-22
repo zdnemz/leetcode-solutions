@@ -36,3 +36,5 @@ function maxDistance(position: number[], m: number): number {
 
 console.log(maxDistance([1, 2, 3, 4, 7], 3));
 console.log(maxDistance([5, 4, 3, 2, 1, 1000000000], 2));
+
+// https://leetcode.com/problems/magnetic-force-between-two-balls/
