@@ -24,6 +24,7 @@ This project contains solutions to various LeetCode problems, implemented in Typ
 
 - **Language**: TypeScript
 - **Node.js**: Used as the runtime environment
+- **bun**: Used as the bundler (optional)
 - **npm**: For managing dependencies
 
 ### Project Goals

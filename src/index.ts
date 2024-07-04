@@ -67,7 +67,7 @@ const run: Function = async () => {
     }
 
     const filePath = path.join(folderPath, file);
-    const command = `npx ts-node ${filePath}`;
+    const command = `bun run ${filePath}`;
     const { stdout, stderr } = await execAsync(command);
 
     if (stderr) {
